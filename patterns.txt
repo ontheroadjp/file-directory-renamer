@@ -1,0 +1,7 @@
+# This is sample patterns.txt
+
+"NT_S1_L[0-9]{1,2}$","NT_S1_L([0-9]{1,2})","Lesson\1"
+".*\.mp3","NT1_[1-4]-[0-9]{1,2}_L[0-9]{1,2}G-","section"
+".*\.mp3","section([1-4])_KP","section\1_Key_Point"
+".*\.mp3","section([1-4])_UC","section\1_Use_and_Check"
+".*\.mp3","NT1_[1-4]-[0-9]{1,2}_L[0-9]{1,2}R","read"
